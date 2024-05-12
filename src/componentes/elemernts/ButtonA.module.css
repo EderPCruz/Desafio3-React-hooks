@@ -1,0 +1,16 @@
+.Btn {
+    background-color: #74FAC0;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bolder;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.Btn:hover {
+    background-color: #379963;
+    color: #f0f8ff;
+    transition-duration: 0.5s;
+    transform: translateY(-5px);
+}

@@ -1,4 +1,6 @@
 import style from './Presentation.module.css';
+import ButtonA from '../elemernts/ButtonA';
+import ButtonB from '../elemernts/ButtonB';  
 
 function Presentation () {
     return(
@@ -9,7 +11,11 @@ function Presentation () {
                Product Manager, eu tenho o compromisso de resolver <br/>
                problemascomplexos e trazer resultados excepcionais para os <br/>
                negócios.Meus projetos já geraram milhões de reais em receita <br/>
-               anualestou sempre em busca de novos desafios para superar.</p>
+               anualestou sempre em busca de novos desafios para superar.
+            </p>
+
+            <ButtonA link='https://github.com/' text='Conecte-se comigo!'/>
+            <ButtonB text='Botão B' />
         </div>
     )
 }
