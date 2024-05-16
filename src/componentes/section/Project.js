@@ -1,9 +1,16 @@
 import style from './Project.module.css'
+import ButtonB from '../elemernts/ButtonB'
+import Cards from '../elemernts/Cards'
 
 function Project () {
     return(
-        <div id='Projects' className= {style.project}>
-            <h1>Project</h1>
+        <div id='Projects' className= {style.projects}>
+            <h1>Projeto</h1>
+            <Cards/>
+            <Cards/>
+            <Cards/>
+            <Cards/>
+            <ButtonB text='Acesse meu repositorio' link='https://github.com/EderPCruz'/>
         </div>
     )
 }

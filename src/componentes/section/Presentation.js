@@ -14,8 +14,8 @@ function Presentation () {
                anualestou sempre em busca de novos desafios para superar.
             </p>
 
-            <ButtonA link='https://github.com/' text='Conecte-se comigo!'/>
-            <ButtonB text='Botão B' />
+            <ButtonA link='https://github.com/EderPCruz' text='Conecte-se comigo!'/>
+            <ButtonB text='Botão B'/>
         </div>
     )
 }
