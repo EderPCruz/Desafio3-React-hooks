@@ -10,7 +10,7 @@ function Project () {
             <Cards/>
             <Cards/>
             <Cards/>
-            <ButtonB text='Acesse meu repositorio' link='https://github.com/EderPCruz'/>
+            <ButtonB text='Acesse meu repositorio completo' link='https://github.com/EderPCruz'/>
         </div>
     )
 }
