@@ -1,24 +1,18 @@
 import style from './Cards.module.css'
-import image10 from '../Image/projets/image10.png'
 import ButtonB from './ButtonB'
 
-function Cards () {
+function Cards ({img, site, title, tech, description, repository}) {
     return (
         <div className={style.card}>
-            <p>meus Cards!</p>
-            <img  src={image10} alt='error'/>
-            <div>
-                <h3>
-                    Título
-                </h3>
-                <p>
-                    Tecnologia
-                </p>
-                <p>
-                    Descrição
-                </p>
-                <ButtonB text='Acesse o repositório'/>
-            </div>
+            <a href={site}>
+                <img src={img} alt='error'/>
+            </a>
+            <section>
+                <h3>{title}</h3>
+                <p><strong>Tecnologia: </strong>{tech}</p>
+                <p>{description}</p>
+                <ButtonB text='Acesse o repositório' link={repository}/>
+            </section>
         </div>
     )
 }
