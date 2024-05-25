@@ -30,9 +30,10 @@
     height: 140px;
     margin-left: 75px;
     background: rgba(1, 9, 28, 0.7);
+    transition-duration: 0.5s;
 }
 
 .habilidades:hover {
     transition-duration: 0.5s;
-    transform: translateY(-5px);
+    height: 160px;
 }
